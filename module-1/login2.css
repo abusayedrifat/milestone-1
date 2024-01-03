@@ -18,7 +18,7 @@ body{
     padding: 30px 40px;
     border-radius: 10px;
     border: 2px solid #ffffffa8;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(10px);
     background:#9f9f9f2a;
     
 }
