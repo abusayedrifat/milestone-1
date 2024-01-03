@@ -1,0 +1,88 @@
+ 
+ body{
+    margin: 0;
+    padding: 0;
+ }
+.first-div{
+    background-image: url('Flyer.png');
+    padding-bottom:70px;
+    
+}
+.first-div h3{
+    
+    margin: 0 0 20px 0;
+    padding: 50px 0 0 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(54, 45, 45);
+}
+
+.first-div img{
+  width: 45%;
+  margin: 30px auto;
+  border-radius: 7px;
+  display: block;
+  
+}
+
+.section{
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: cornsilk;
+}
+.section h3{
+    margin: 0 auto;
+    padding-bottom:20px ;
+    text-align: center;
+    font-family:Gotham;
+    font-size: 3rem;
+}
+#second-div{
+    margin: 40px auto;
+    height: 30%;
+    width:40%;
+    border-radius: 7px;
+    box-shadow: 3px 7px 7px 0  rgb(120, 118, 118);
+}
+#second-div img{
+    width: 100%;
+    }
+#second-div p{
+    display: block;
+    padding-bottom: 20px ;
+    text-align: center;
+    font-size: 1.2em;
+}
+footer{
+    background-color: rgb(43, 43, 74);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+    padding: 100px 0 200px 0;
+}
+
+input, label, textarea{
+    display: block;
+    width: 60%;
+    margin: 5px auto;
+   
+}
+label{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.submit{
+    display: block;
+    width: 25%;
+    margin: 40px auto;
+    height: 7vh;
+}
+ .copyright{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background-color: rgb(43, 43, 74);
+    text-align: center;
+    color: white;
+}
