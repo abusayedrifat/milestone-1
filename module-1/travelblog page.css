@@ -4,10 +4,11 @@
     padding: 0;
 }
 body{
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 160px;
     background-image: url('../photos-for-websites/background-from-tropical-flowers-vector-15766486.jpg');
     background-size: cover;
+    width: 100%;
 }
 body .heading{
     padding: 10px;
@@ -29,11 +30,11 @@ body .heading{
     font-weight: 600;
     font-family:Candara Light;
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:440px) {
     .description{
         margin: 0px auto;
-        padding: 10px 3px;
-        width: 98%;
+        padding: 10px 0;
+        width: 100%;
         background-color: #dedede61;
         backdrop-filter: blur(20px);
         border: 2px solid #f1f1f14d;
@@ -42,25 +43,22 @@ body .heading{
         font-family:Candara Light;
     }
     .description div{
-        margin: 0 auto;
+        margin: 0px auto;
         font-size: 0.5rem;
         color: rgba(0, 0, 0, 0.751);
         padding: 16px;
-        width: 100%;
     }
+ 
     .description .p2 span{
-
-        font-size: 2.5rem;
-        margin: 5px;
-        background-color: #cbcbcb61;
-        border-radius: 7px;
+        display: flex;
         text-align: center;
-        
+        justify-content: center;
+        margin: 0 auto;
     }
+
     .description ul{
-        font-size: 2rem;
-        padding:15px 0 0 30px;
-        margin:10px 5px;
+        font-size: 1.5rem;
+        margin-right:90px;
     }
 }
 .description div{
@@ -85,18 +83,24 @@ body .heading{
     border: 2px solid #f1f1f14d;
 }
 .description .p2 span{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.7rem;
-    margin-left: 45px;
+    margin:auto 50px;
     padding: 10px;
     background-color: #cbcbcb61;
     border-radius: 7px;
     
 }
 .description ul{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     font-size: 2rem;
     padding:15px 0 0 30px;
-    margin-left: 45px;
+    margin:0 110px;
 }
 
 
@@ -172,6 +176,9 @@ body .heading{
 .section2{
     background-image: url('../photos-for-websites/sign-post-5655110_1280.png');
     width: 100%;
-    height: 1400px;
-    background-size: cover;
+    height: 700px;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f4ddcb;
 }
