@@ -9,6 +9,7 @@ body{
     background-image: url('../photos-for-websites/background-from-tropical-flowers-vector-15766486.jpg');
     background-size: cover;
     width: 100%;
+    position: sticky;
 }
 body .heading{
     padding: 10px;
@@ -246,6 +247,37 @@ body .heading{
         font-size: 1.5rem;
 }
 }
-  
+  footer{
+    background-color: #311044f8;
+    height: 600px;
+    color: white;
+    text-align: center;
+  }
 
+footer textarea{
+    font-size: 1.4rem;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+}
+textarea::placeholder{
+    padding: 2px 0 2px 2px;
+}
+label{
+    text-align: left;
+    font-size: 1.4rem;
+    position: relative;
+    bottom: -50%;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+input:hover{
+    background-color: #e1e1e1;
+    font-size: 1.6rem;
+}
 
