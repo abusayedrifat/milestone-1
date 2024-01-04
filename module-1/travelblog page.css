@@ -5,13 +5,101 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 160px;
+    background-image: url('../photos-for-websites/background-from-tropical-flowers-vector-15766486.jpg');
+    background-size: cover;
 }
 body .heading{
-    font-size: 5rem;
-    text-align: center;
     padding: 10px;
     margin: 30px 0 10px 0;
+    font-size: 6rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.65);
+    color: rgb(42, 181, 255);
 }
+.description{
+    margin: 0px auto;
+    padding: 30px 0 20px 0;
+    width: 80%;
+    background-color: #dedede61;
+    backdrop-filter: blur(10px);
+    border: 2px solid #f1f1f14d;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family:Candara Light;
+}
+@media screen and (max-width:430px) {
+    .description{
+        margin: 0px auto;
+        padding: 10px 3px;
+        width: 98%;
+        background-color: #dedede61;
+        backdrop-filter: blur(20px);
+        border: 2px solid #f1f1f14d;
+        border-radius: 10px;
+        font-weight: 600;
+        font-family:Candara Light;
+    }
+    .description div{
+        margin: 0 auto;
+        font-size: 0.5rem;
+        color: rgba(0, 0, 0, 0.751);
+        padding: 16px;
+        width: 100%;
+    }
+    .description .p2 span{
+
+        font-size: 2.5rem;
+        margin: 5px;
+        background-color: #cbcbcb61;
+        border-radius: 7px;
+        text-align: center;
+        
+    }
+    .description ul{
+        font-size: 2rem;
+        padding:15px 0 0 30px;
+        margin:10px 5px;
+    }
+}
+.description div{
+    margin: 0 auto;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.751);
+    padding: 16px;
+    width: 90%;
+}
+.description h3{
+    color: #7441a7;
+    font-family:gotham black;
+    background-color: #a6a6a661;
+    border-radius: 7px;
+  padding: 8px;
+}
+.description button{
+    padding: 10px 32px;
+    margin:5px 0 20px 45px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #f1f1f14d;
+}
+.description .p2 span{
+
+    font-size: 2.7rem;
+    margin-left: 45px;
+    padding: 10px;
+    background-color: #cbcbcb61;
+    border-radius: 7px;
+    
+}
+.description ul{
+    font-size: 2rem;
+    padding:15px 0 0 30px;
+    margin-left: 45px;
+}
+
+
 .column{
     display: flexbox;
     float: left;
@@ -20,14 +108,18 @@ body .heading{
     margin: 0;
     
 }
-.row {margin: 0 -5px;}
+.row {
+    margin: 0;
+    background-color: rgba(206, 206, 206, 0.227);
+    backdrop-filter: blur(10px);
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:450px){
     .column{
         width: 100%;
         display: block;
@@ -38,7 +130,7 @@ body .heading{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background: #f1f1f1;
     border-radius: 4px;
-    margin:10px 0 0 10px;
+    margin:10px 10px 0 7px;
     min-height: 250px;
     text-align: center;
 }
@@ -54,26 +146,32 @@ body .heading{
 
 }
 
-
-.row2 {margin: 0 -5px;}
+.row2 {
+    margin: 0;
+    background-color: rgba(206, 206, 206, 0.227);
+    backdrop-filter: blur(10px);
+}
 .row2:after {
   content: "";
   display: table;
   clear: both;
 }
-
-.column2{
-    display: flexbox;
-    float: left;
-    padding-top: 10px;
-    width: 25%;
-    margin: 0 auto;
-
+.row3 {
+    margin: 0 -5px;
+    padding-bottom: 50px;
+    background-color:  rgba(206, 206, 206, 0.227);
+    backdrop-filter: blur(10px);
 }
-@media screen and (max-width:520px){
-    .column2{
-        width: 100%;
-        display: block;
-        margin-bottom: 30px;
-    }
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.section2{
+    background-image: url('../photos-for-websites/sign-post-5655110_1280.png');
+    width: 100%;
+    height: 1400px;
+    background-size: cover;
 }
