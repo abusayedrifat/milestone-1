@@ -40,13 +40,13 @@ header{
     padding: 5px 15px;
 }
 
-section .section-title{
+.section-title{
 color:  #181818;
 text-align: center;
 font-size: 35px;
 font-weight: 700;
 }
-section .section-content{
+.section-content{
     color: #757575;
 text-align: center;
 font-size: 18px;
@@ -256,4 +256,51 @@ line-height: 30px;
     margin: 0 auto;
     padding-top: 50px;
     text-align: center;
+}
+
+footer{
+    display: flex;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 110px 230px 130px;
+    margin-top: 110px;
+}
+.footer-column{
+    display:block;
+    width: 50%;
+}
+footer input,textarea{
+    display: block;
+    width: 100%;
+    padding: 20px ;
+    margin-bottom: 25px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+footer input[type="text"], input[type="email"]{
+    height: 40px;
+}
+footer textarea,input::placeholder{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.footer-title{
+    color: #181818;
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 25px;
+}
+.social-link img{
+    display: inline;
+    margin-top: 30px;
+}
+.social-link a{
+    width: 24px;
+height: 24px;
+margin-right: 25px;
 }
