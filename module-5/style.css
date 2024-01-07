@@ -14,7 +14,7 @@ body{
 }
 header{
     background-color: #FFF8F3;
-    background-image: url('/images/header_bg.png');
+    background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     border: 2px solid #fff;
@@ -70,7 +70,7 @@ section .skill-info{
 }
 section .skill-title{
     margin:30px 0 20px 0 ;
-color: #181818;
+color: #181818; 
 font-size: 20px;
 font-weight: 700;
 }
@@ -98,7 +98,7 @@ section .resume-container{
     margin-top:110px ;
 }
 
-/*education column style  */
+/*education part style  */
 
 .education-resume{
     margin-right: 25px;
@@ -107,11 +107,14 @@ section .resume-container{
 .education-resume h1{
     color: #474747;
 font-size: 30px;
-font-weight: 700;
+font-weight: 700;   
 }
  .education-stage{
- margin-bottom:60px ;
- 
+ margin-bottom:30px ;
+ border-bottom:1px solid #d1d1d1;
+}
+.education-stage:last-of-type{
+    border-bottom: none;
 }
 
 .education-stage .edu-title{
@@ -127,19 +130,23 @@ font-weight: 700;
     font-weight: 600;
 }
 .edu-description{
-    width: 511px;
     color: #757575;
 font-size: 16px;
 font-weight: 400;
 line-height: 28px;
+margin-bottom: 30px;
 }
-/*experience column style  */
+/*experience part style  */
 
 .experience-resume{
     margin:0 20px 0 20px;
 }
  .experience-stage{
     margin-bottom: 60px;
+    border-bottom:1px solid #d1d1d1;
+}
+.experience-stage:last-of-type{
+    border-bottom: none;
 }
 .experience-resume h1{
     color: #474747;
@@ -147,7 +154,7 @@ font-size: 30px;
 font-weight: 700;
 }
 .experience-resume .experience-stage{
- margin-bottom:60px ;
+ margin-bottom:30px ;
 }
 .experience-stage .exp-title{
 margin: 30px 0 10px 0;
@@ -162,11 +169,11 @@ font-weight: 700;
     font-weight: 600;
 }
 .exp-description{
-    width: 511px;
     color: #757575;
 font-size: 16px;
 font-weight: 400;
 line-height: 28px;
+margin-bottom: 30px;
 }
 
 
@@ -250,12 +257,13 @@ line-height: 30px;
     margin: 130px;
     padding: 130px;
     background-color: #FFF8F3;
-}
 
+}
 /* CV download button */
 .download-btn{
     display: flex;
     margin: 0 auto;
+    padding-top: 50px;
 }
 #btn-cv-download{
     margin: 0 auto;
