@@ -111,11 +111,7 @@ font-weight: 700;
 }
  .education-stage{
  margin-bottom:30px ;
- border-bottom:1px solid #d1d1d1;
-}
-.education-stage:last-of-type{
-    border-bottom: none;
-}
+ }
 
 .education-stage .edu-title{
 margin: 30px 0 10px 0;
@@ -123,7 +119,7 @@ color: #474747;
 font-size: 25px;
 font-weight: 700;
 }
-.edu-title .edu-timespan{
+.edu-timespan{
     margin-bottom: 20px;
     color:#757575;
     font-size: 20px;
@@ -143,11 +139,7 @@ margin-bottom: 30px;
 }
  .experience-stage{
     margin-bottom: 60px;
-    border-bottom:1px solid #d1d1d1;
-}
-.experience-stage:last-of-type{
-    border-bottom: none;
-}
+ }
 .experience-resume h1{
     color: #474747;
 font-size: 30px;
@@ -162,7 +154,7 @@ color: #474747;
 font-size: 25px;
 font-weight: 700;
 }
-.exp-title .exp-duration{
+.exp-duration{
     margin-bottom: 20px;
     color:#757575;
     font-size: 20px;
@@ -261,10 +253,7 @@ line-height: 30px;
 }
 /* CV download button */
 .download-btn{
-    display: flex;
     margin: 0 auto;
     padding-top: 50px;
-}
-#btn-cv-download{
-    margin: 0 auto;
+    text-align: center;
 }
