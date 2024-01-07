@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+header {
+    background-image: url('images/banner/banner3.png');
+    height: 810px;
+}
+.banner-section{
+    float: right;
+    width: 700px;
+}
+.banner-section .banner-content{
+    display: block;
+    text-align: right;
+    margin:216px 150px 160px 0px ;
+}
+.banner-content .banner-title{
+    color: #FFF;
+text-align: right;
+font-family: Work Sans;
+font-size: 65px;
+font-weight: 700;
+}
+.banner-content .banner-overview-content{
+    margin: 25px 0 32px 0;
+    color: #FFF;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.banner-content button{
+background-color: #FFF;
+width: 160px;
+height: 64px;
+color: #005FAC;
+font-size: 20px;
+font-weight: 600;
+border-radius: 5px;
+border: none;
+outline: none;
+}
+main{
+
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.mistake-section{
+    display: flex;
+    width: 100%;
+    margin-top: 130px;
+    justify-content: center;
+    align-content: space-between;
+}
+.mistake-section .image{
+    max-width: 500px;
+}
+ .mistakes{
+    margin: 280px 0px 0px 150px;
+}
+.mistakes .mistake-title{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 25px;
+}
+.mistakes .mistake-description{
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.mistake-list{
+ display: flex;
+ margin-top: 16px;
+}
+.mistake-list .right-marks{
+    margin-right: 10px;
+}
+.mistake-list div ul{
+    width: 420px;
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.my-plans{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 140px;
+}
+.my-plans-title{
+text-align: center;
+color: #151414;
+font-size: 40px;
+font-weight: 700;
+margin: 120px 0 50px 0;
+}
+.plans-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plans-item .plan{
+    width: 25%;
+}
+.plan img{
+    margin-bottom: 25px;
+}
+.plan-title{
+    margin-bottom: 15px;
+    color: #151414;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+}
+.plan-goal{
+    color: #737272;
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+}
+.call-now{
+    background-image: url('images/gradient1.png'), url('images/watch.png') ;
+    height: 300px;
+    margin-bottom: 130px;
+}
+.call-now h1{
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+width: 500px;
+position: relative;
+top: 50%;
+left: 6%;
+transform: translateY(-90%);
+}
+.call-now button{
+    margin:80px 0 0 70px;
+    background-color: #FFF;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    background: #151414;
+    color: white;
+   
+}
+.footer-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    margin-bottom: 130px;
+}
+.future{
+    width: 50%;
+}
+.future .future-title{
+margin: 130px 0 20px 0;
+color: #F8F8F8;
+font-size: 45px;
+font-weight: 700;
+}
+.future .future-content{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.content{
+    margin-bottom: 25px;
+}
+.social-link img{
+    margin-right: 10px;
+}
+.subscribe{
+    width: 50%;
+    margin: 130px 0 0 350px;
+    display: block;
+}
+.subscribe h1{
+    color: #F8F8F8;
+font-size: 45px;
+font-weight: 700;
+}
+.subscribe input{
+    display: block;
+    height: 65px;
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 100%;
+    padding-left: 25px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+.subscribe input::placeholder{
+    font-size: 20px;
+}
+.subscribe button{
+background-color:#005FAC;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+border: none;
+height: 65px;
+margin-top: 30px;
+border-radius: 8px;
+color: #FFF;
+padding: 20px 40px;
+}
